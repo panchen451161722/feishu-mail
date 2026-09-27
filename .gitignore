@@ -1,0 +1,34 @@
+# Local credentials (including the project's historical spelling)
+.env
+.env.*
+.enviroment
+.enviroment.*
+!.env.example
+!.enviroment.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Domain verification records and Cloudflare rollback snapshots
+/.feishu-mail-cutover/
+/backups/
+
+# Local tools, logs, caches, and editor files
+/.codex/
+/.agents/
+/.vscode/
+/.idea/
+node_modules/
+__pycache__/
+.venv/
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
